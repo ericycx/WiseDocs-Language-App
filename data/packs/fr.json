@@ -1,0 +1,101 @@
+[
+  {
+    "id": "greetings",
+    "languageCode": "fr",
+    "title": "Greetings & Politeness",
+    "description": "Bonjour first, always. The essentials of French courtesy.",
+    "topic": "Greetings",
+    "level": "A1",
+    "cards": [
+      { "id": "bonjour", "term": "bonjour", "translation": "hello / good morning", "partOfSpeech": "interjection", "example": "Bonjour, madame !", "exampleTranslation": "Hello, ma'am!" },
+      { "id": "bonsoir", "term": "bonsoir", "translation": "good evening", "partOfSpeech": "interjection" },
+      { "id": "salut", "term": "salut", "translation": "hi / bye (informal)", "partOfSpeech": "interjection" },
+      { "id": "au-revoir", "term": "au revoir", "translation": "goodbye", "partOfSpeech": "phrase" },
+      { "id": "a-bientot", "term": "à bientôt", "translation": "see you soon", "partOfSpeech": "phrase" },
+      { "id": "bonne-nuit", "term": "bonne nuit", "translation": "good night", "partOfSpeech": "phrase" },
+      { "id": "merci", "term": "merci", "translation": "thank you / thanks", "partOfSpeech": "interjection", "example": "Merci beaucoup !", "exampleTranslation": "Thank you very much!" },
+      { "id": "s-il-vous-plait", "term": "s'il vous plaît", "translation": "please (formal)", "partOfSpeech": "phrase" },
+      { "id": "de-rien", "term": "de rien", "translation": "you're welcome", "partOfSpeech": "phrase" },
+      { "id": "excusez-moi", "term": "excusez-moi", "translation": "excuse me", "partOfSpeech": "phrase" },
+      { "id": "pardon", "term": "pardon", "translation": "sorry / pardon", "partOfSpeech": "interjection" },
+      { "id": "comment-allez-vous", "term": "Comment allez-vous ?", "translation": "how are you? (formal)", "partOfSpeech": "phrase" },
+      { "id": "ca-va", "term": "Ça va ?", "translation": "how's it going?", "partOfSpeech": "phrase", "example": "Salut, Paul ! Ça va ?", "exampleTranslation": "Hi, Paul! How's it going?" },
+      { "id": "enchante", "term": "enchanté(e)", "translation": "nice to meet you", "partOfSpeech": "adjective" },
+      { "id": "je-m-appelle", "term": "je m'appelle…", "translation": "my name is…", "partOfSpeech": "phrase", "example": "Je m'appelle Claire.", "exampleTranslation": "My name is Claire." }
+    ]
+  },
+  {
+    "id": "food-drink",
+    "languageCode": "fr",
+    "title": "Food & Drink",
+    "description": "From the boulangerie to the bistro: words for eating well.",
+    "topic": "Food & Drink",
+    "level": "A1",
+    "cards": [
+      { "id": "pain", "term": "le pain", "translation": "bread", "partOfSpeech": "noun (m)" },
+      { "id": "eau", "term": "l'eau", "translation": "water", "partOfSpeech": "noun (f)", "example": "Une carafe d'eau, s'il vous plaît.", "exampleTranslation": "A jug of water, please." },
+      { "id": "lait", "term": "le lait", "translation": "milk", "partOfSpeech": "noun (m)" },
+      { "id": "fromage", "term": "le fromage", "translation": "cheese", "partOfSpeech": "noun (m)" },
+      { "id": "pomme", "term": "la pomme", "translation": "apple", "partOfSpeech": "noun (f)" },
+      { "id": "poulet", "term": "le poulet", "translation": "chicken", "partOfSpeech": "noun (m)" },
+      { "id": "poisson", "term": "le poisson", "translation": "fish", "partOfSpeech": "noun (m)" },
+      { "id": "viande", "term": "la viande", "translation": "meat", "partOfSpeech": "noun (f)" },
+      { "id": "riz", "term": "le riz", "translation": "rice", "partOfSpeech": "noun (m)" },
+      { "id": "legumes", "term": "les légumes", "translation": "vegetables", "partOfSpeech": "noun (m, pl)" },
+      { "id": "cafe", "term": "le café", "translation": "coffee", "partOfSpeech": "noun (m)" },
+      { "id": "vin", "term": "le vin", "translation": "wine", "partOfSpeech": "noun (m)", "example": "Un verre de vin rouge, s'il vous plaît.", "exampleTranslation": "A glass of red wine, please." },
+      { "id": "biere", "term": "la bière", "translation": "beer", "partOfSpeech": "noun (f)" },
+      { "id": "petit-dejeuner", "term": "le petit-déjeuner", "translation": "breakfast", "partOfSpeech": "noun (m)" },
+      { "id": "diner", "term": "le dîner", "translation": "dinner", "partOfSpeech": "noun (m)" },
+      { "id": "addition", "term": "l'addition", "translation": "bill / check", "partOfSpeech": "noun (f)", "example": "L'addition, s'il vous plaît.", "exampleTranslation": "The check, please." }
+    ]
+  },
+  {
+    "id": "travel",
+    "languageCode": "fr",
+    "title": "Travel & Directions",
+    "description": "Trains, tickets and turning left at the boulangerie.",
+    "topic": "Travel",
+    "level": "A2",
+    "cards": [
+      { "id": "gare", "term": "la gare", "translation": "train station", "partOfSpeech": "noun (f)" },
+      { "id": "aeroport", "term": "l'aéroport", "translation": "airport", "partOfSpeech": "noun (m)" },
+      { "id": "billet", "term": "le billet", "translation": "ticket", "partOfSpeech": "noun (m)", "example": "Un billet pour Lyon, s'il vous plaît.", "exampleTranslation": "A ticket to Lyon, please." },
+      { "id": "passeport", "term": "le passeport", "translation": "passport", "partOfSpeech": "noun (m)" },
+      { "id": "valise", "term": "la valise", "translation": "suitcase", "partOfSpeech": "noun (f)" },
+      { "id": "train", "term": "le train", "translation": "train", "partOfSpeech": "noun (m)" },
+      { "id": "chambre", "term": "la chambre", "translation": "room (bedroom)", "partOfSpeech": "noun (f)" },
+      { "id": "plage", "term": "la plage", "translation": "beach", "partOfSpeech": "noun (f)" },
+      { "id": "a-gauche", "term": "à gauche", "translation": "to the left / on the left", "partOfSpeech": "phrase" },
+      { "id": "a-droite", "term": "à droite", "translation": "to the right / on the right", "partOfSpeech": "phrase" },
+      { "id": "tout-droit", "term": "tout droit", "translation": "straight ahead", "partOfSpeech": "phrase", "example": "Allez tout droit.", "exampleTranslation": "Go straight ahead." },
+      { "id": "ou-est", "term": "Où est… ?", "translation": "where is…?", "partOfSpeech": "phrase", "example": "Où est la gare ?", "exampleTranslation": "Where is the train station?" },
+      { "id": "plan", "term": "le plan", "translation": "map (of a town)", "partOfSpeech": "noun (m)" },
+      { "id": "reservation", "term": "la réservation", "translation": "reservation / booking", "partOfSpeech": "noun (f)" },
+      { "id": "vol", "term": "le vol", "translation": "flight", "partOfSpeech": "noun (m)" }
+    ]
+  },
+  {
+    "id": "common-verbs",
+    "languageCode": "fr",
+    "title": "Common Verbs",
+    "description": "Être, avoir, aller and friends: the verbs that do the heavy lifting.",
+    "topic": "Verbs",
+    "level": "A1",
+    "cards": [
+      { "id": "etre", "term": "être", "translation": "to be", "partOfSpeech": "verb", "example": "Je suis étudiant.", "exampleTranslation": "I am a student." },
+      { "id": "avoir", "term": "avoir", "translation": "to have", "partOfSpeech": "verb", "example": "J'ai un chat.", "exampleTranslation": "I have a cat." },
+      { "id": "faire", "term": "faire", "translation": "to do / to make", "partOfSpeech": "verb", "example": "Il fait beau.", "exampleTranslation": "The weather is nice." },
+      { "id": "aller", "term": "aller", "translation": "to go", "partOfSpeech": "verb", "example": "Je vais au marché.", "exampleTranslation": "I'm going to the market." },
+      { "id": "venir", "term": "venir", "translation": "to come", "partOfSpeech": "verb", "example": "Elle vient de Lyon.", "exampleTranslation": "She comes from Lyon." },
+      { "id": "dire", "term": "dire", "translation": "to say / to tell", "partOfSpeech": "verb" },
+      { "id": "pouvoir", "term": "pouvoir", "translation": "to be able to / can", "partOfSpeech": "verb", "example": "Je peux entrer ?", "exampleTranslation": "Can I come in?" },
+      { "id": "vouloir", "term": "vouloir", "translation": "to want", "partOfSpeech": "verb", "example": "Tu veux un café ?", "exampleTranslation": "Do you want a coffee?" },
+      { "id": "savoir", "term": "savoir", "translation": "to know (facts)", "partOfSpeech": "verb", "example": "Je ne sais pas.", "exampleTranslation": "I don't know." },
+      { "id": "connaitre", "term": "connaître", "translation": "to know (people, places)", "partOfSpeech": "verb", "example": "Je connais ta sœur.", "exampleTranslation": "I know your sister." },
+      { "id": "parler", "term": "parler", "translation": "to speak / to talk", "partOfSpeech": "verb", "example": "Je parle un peu français.", "exampleTranslation": "I speak a little French." },
+      { "id": "manger", "term": "manger", "translation": "to eat", "partOfSpeech": "verb", "example": "Nous mangeons à midi.", "exampleTranslation": "We eat at noon." },
+      { "id": "habiter", "term": "habiter", "translation": "to live (reside)", "partOfSpeech": "verb", "example": "J'habite à Paris.", "exampleTranslation": "I live in Paris." }
+    ]
+  }
+]

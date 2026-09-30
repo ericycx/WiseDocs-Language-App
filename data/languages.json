@@ -1,0 +1,6 @@
+[
+  { "code": "es", "name": "Spanish", "nativeName": "Español", "flag": "🇪🇸", "ttsLocale": "es-ES" },
+  { "code": "fr", "name": "French", "nativeName": "Français", "flag": "🇫🇷", "ttsLocale": "fr-FR" },
+  { "code": "ja", "name": "Japanese", "nativeName": "日本語", "flag": "🇯🇵", "ttsLocale": "ja-JP" },
+  { "code": "de", "name": "German", "nativeName": "Deutsch", "flag": "🇩🇪", "ttsLocale": "de-DE" }
+]

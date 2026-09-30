@@ -1,0 +1,231 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body), "Hiragino Sans", "Noto Sans JP", "Yu Gothic", system-ui, sans-serif;
+  --font-heading: var(--font-display), Georgia, "Hiragino Mincho ProN", serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-highlight: var(--highlight);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* Warm "paper & ink" palette. Language accents tint cards per language. */
+:root {
+  --radius: 0.875rem;
+  --background: oklch(0.974 0.016 84);
+  --foreground: oklch(0.24 0.035 264);
+  --ink: oklch(0.24 0.035 264);
+  --card: oklch(0.995 0.006 84);
+  --card-foreground: oklch(0.24 0.035 264);
+  --popover: oklch(0.995 0.006 84);
+  --popover-foreground: oklch(0.24 0.035 264);
+  --primary: oklch(0.55 0.19 33);
+  --primary-foreground: oklch(0.99 0.005 84);
+  --secondary: oklch(0.93 0.08 95);
+  --secondary-foreground: oklch(0.26 0.04 264);
+  --muted: oklch(0.94 0.018 84);
+  --muted-foreground: oklch(0.46 0.03 264);
+  --accent: oklch(0.93 0.035 70);
+  --accent-foreground: oklch(0.24 0.035 264);
+  --destructive: oklch(0.55 0.21 25);
+  --success: oklch(0.52 0.13 155);
+  --success-foreground: oklch(0.99 0.005 84);
+  --highlight: oklch(0.9 0.12 95);
+  --border: oklch(0.86 0.025 80);
+  --input: oklch(0.8 0.03 80);
+  --ring: oklch(0.55 0.19 33);
+
+  --lang-es: oklch(0.72 0.17 45);
+  --lang-fr: oklch(0.66 0.14 255);
+  --lang-ja: oklch(0.74 0.13 355);
+  --lang-de: oklch(0.83 0.15 88);
+}
+
+.dark {
+  --background: oklch(0.2 0.025 264);
+  --foreground: oklch(0.95 0.014 84);
+  --ink: oklch(0.08 0.02 264);
+  --card: oklch(0.26 0.03 264);
+  --card-foreground: oklch(0.95 0.014 84);
+  --popover: oklch(0.26 0.03 264);
+  --popover-foreground: oklch(0.95 0.014 84);
+  --primary: oklch(0.74 0.15 40);
+  --primary-foreground: oklch(0.18 0.03 264);
+  --secondary: oklch(0.36 0.06 95);
+  --secondary-foreground: oklch(0.96 0.02 95);
+  --muted: oklch(0.3 0.03 264);
+  --muted-foreground: oklch(0.76 0.025 84);
+  --accent: oklch(0.33 0.04 264);
+  --accent-foreground: oklch(0.95 0.014 84);
+  --destructive: oklch(0.7 0.18 25);
+  --success: oklch(0.72 0.14 155);
+  --success-foreground: oklch(0.18 0.03 264);
+  --highlight: oklch(0.45 0.09 95);
+  --border: oklch(0.38 0.03 264);
+  --input: oklch(0.45 0.03 264);
+  --ring: oklch(0.74 0.15 40);
+
+  --lang-es: oklch(0.66 0.15 45);
+  --lang-fr: oklch(0.62 0.13 255);
+  --lang-ja: oklch(0.68 0.12 355);
+  --lang-de: oklch(0.76 0.13 88);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    color-scheme: light;
+  }
+  html.dark {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background-image: radial-gradient(color-mix(in oklch, var(--foreground) 7%, transparent) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-heading;
+    font-variation-settings: "SOFT" 100;
+  }
+  :focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+/* Chunky "sticker" surface: ink outline with a hard offset shadow. */
+@utility sticker {
+  border: 2px solid var(--ink);
+  box-shadow: 4px 4px 0 0 var(--ink);
+}
+
+@utility sticker-sm {
+  border: 2px solid var(--ink);
+  box-shadow: 2px 2px 0 0 var(--ink);
+}
+
+/* Lift on hover, press on active. Disabled under reduced motion. */
+@utility press {
+  transition:
+    transform 120ms ease,
+    box-shadow 120ms ease;
+  &:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 6px 6px 0 0 var(--ink);
+  }
+  &:active {
+    transform: translate(3px, 3px);
+    box-shadow: 1px 1px 0 0 var(--ink);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+    &:hover,
+    &:active {
+      transform: none;
+    }
+  }
+}
+
+/* Flashcard 3D flip */
+.flip-scene {
+  perspective: 1400px;
+}
+.flip-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 520ms cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+.flip-inner[data-flipped="true"] {
+  transform: rotateY(180deg);
+}
+.flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip-back {
+  transform: rotateY(180deg);
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20%,
+  60% {
+    transform: translateX(-6px);
+  }
+  40%,
+  80% {
+    transform: translateX(6px);
+  }
+}
+.animate-shake {
+  animation: shake 360ms ease-in-out;
+}
+
+@keyframes pop-in {
+  from {
+    transform: scale(0.94);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.animate-pop-in {
+  animation: pop-in 260ms cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* Swap the flip for an instant face change. */
+  .flip-inner {
+    transition: none;
+  }
+  .animate-shake,
+  .animate-pop-in {
+    animation: none;
+  }
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "greetings",
+    "languageCode": "ja",
+    "title": "Greetings & Courtesy",
+    "description": "Everyday greetings and the polite phrases that smooth every interaction.",
+    "topic": "Greetings",
+    "level": "A1",
+    "cards": [
+      { "id": "konnichiwa", "term": "こんにちは", "translation": "hello / good afternoon", "pronunciation": "konnichiwa", "partOfSpeech": "phrase" },
+      { "id": "ohayou", "term": "おはようございます", "translation": "good morning (polite)", "pronunciation": "ohayō gozaimasu", "partOfSpeech": "phrase" },
+      { "id": "konbanwa", "term": "こんばんは", "translation": "good evening", "pronunciation": "konbanwa", "partOfSpeech": "phrase" },
+      { "id": "oyasumi", "term": "おやすみなさい", "translation": "good night", "pronunciation": "oyasuminasai", "partOfSpeech": "phrase" },
+      { "id": "sayounara", "term": "さようなら", "translation": "goodbye", "pronunciation": "sayōnara", "partOfSpeech": "phrase" },
+      { "id": "arigatou", "term": "ありがとうございます", "translation": "thank you (polite)", "pronunciation": "arigatō gozaimasu", "partOfSpeech": "phrase" },
+      { "id": "douitashimashite", "term": "どういたしまして", "translation": "you're welcome", "pronunciation": "dō itashimashite", "partOfSpeech": "phrase" },
+      { "id": "sumimasen", "term": "すみません", "translation": "excuse me / sorry", "pronunciation": "sumimasen", "partOfSpeech": "phrase", "example": "すみません、駅はどこですか。", "exampleTranslation": "Excuse me, where is the station?" },
+      { "id": "gomennasai", "term": "ごめんなさい", "translation": "I'm sorry", "pronunciation": "gomen nasai", "partOfSpeech": "phrase" },
+      { "id": "hai", "term": "はい", "translation": "yes", "pronunciation": "hai", "partOfSpeech": "interjection" },
+      { "id": "iie", "term": "いいえ", "translation": "no", "pronunciation": "iie", "partOfSpeech": "interjection" },
+      { "id": "hajimemashite", "term": "はじめまして", "translation": "nice to meet you", "pronunciation": "hajimemashite", "partOfSpeech": "phrase", "example": "はじめまして、田中です。", "exampleTranslation": "Nice to meet you, I'm Tanaka." },
+      { "id": "yoroshiku", "term": "よろしくお願いします", "translation": "please treat me kindly", "pronunciation": "yoroshiku onegaishimasu", "partOfSpeech": "phrase" },
+      { "id": "ogenki", "term": "お元気ですか", "translation": "how are you?", "pronunciation": "o-genki desu ka", "partOfSpeech": "phrase" },
+      { "id": "itadakimasu", "term": "いただきます", "translation": "let's eat (said before meals)", "pronunciation": "itadakimasu", "partOfSpeech": "phrase" }
+    ]
+  },
+  {
+    "id": "food-drink",
+    "languageCode": "ja",
+    "title": "Food & Drink",
+    "description": "Menu words for ramen shops, convenience stores and izakaya.",
+    "topic": "Food & Drink",
+    "level": "A1",
+    "cards": [
+      { "id": "mizu", "term": "水", "translation": "water", "pronunciation": "mizu", "partOfSpeech": "noun", "example": "水をください。", "exampleTranslation": "Water, please." },
+      { "id": "ocha", "term": "お茶", "translation": "tea (green tea)", "pronunciation": "ocha", "partOfSpeech": "noun" },
+      { "id": "gohan", "term": "ご飯", "translation": "cooked rice / meal", "pronunciation": "gohan", "partOfSpeech": "noun" },
+      { "id": "pan", "term": "パン", "translation": "bread", "pronunciation": "pan", "partOfSpeech": "noun" },
+      { "id": "niku", "term": "肉", "translation": "meat", "pronunciation": "niku", "partOfSpeech": "noun" },
+      { "id": "sakana", "term": "魚", "translation": "fish", "pronunciation": "sakana", "partOfSpeech": "noun" },
+      { "id": "yasai", "term": "野菜", "translation": "vegetables", "pronunciation": "yasai", "partOfSpeech": "noun" },
+      { "id": "tamago", "term": "卵", "translation": "egg", "pronunciation": "tamago", "partOfSpeech": "noun" },
+      { "id": "gyuunyuu", "term": "牛乳", "translation": "milk", "pronunciation": "gyūnyū", "partOfSpeech": "noun" },
+      { "id": "ringo", "term": "りんご", "translation": "apple", "pronunciation": "ringo", "partOfSpeech": "noun" },
+      { "id": "biiru", "term": "ビール", "translation": "beer", "pronunciation": "bīru", "partOfSpeech": "noun" },
+      { "id": "asagohan", "term": "朝ご飯", "translation": "breakfast", "pronunciation": "asagohan", "partOfSpeech": "noun" },
+      { "id": "bangohan", "term": "晩ご飯", "translation": "dinner", "pronunciation": "bangohan", "partOfSpeech": "noun" },
+      { "id": "oishii", "term": "おいしい", "translation": "delicious / tasty", "pronunciation": "oishii", "partOfSpeech": "adjective", "example": "このラーメンはおいしいです。", "exampleTranslation": "This ramen is delicious." },
+      { "id": "okaikei", "term": "お会計", "translation": "bill / check", "pronunciation": "okaikei", "partOfSpeech": "noun", "example": "お会計をお願いします。", "exampleTranslation": "The check, please." }
+    ]
+  },
+  {
+    "id": "numbers",
+    "languageCode": "ja",
+    "title": "Numbers 1–1000",
+    "description": "Count in kanji, from one to a thousand.",
+    "topic": "Numbers",
+    "level": "A1",
+    "cards": [
+      { "id": "ichi", "term": "一", "translation": "one", "pronunciation": "ichi", "partOfSpeech": "number" },
+      { "id": "ni", "term": "二", "translation": "two", "pronunciation": "ni", "partOfSpeech": "number" },
+      { "id": "san", "term": "三", "translation": "three", "pronunciation": "san", "partOfSpeech": "number" },
+      { "id": "yon", "term": "四", "translation": "four", "pronunciation": "yon / shi", "partOfSpeech": "number" },
+      { "id": "go", "term": "五", "translation": "five", "pronunciation": "go", "partOfSpeech": "number" },
+      { "id": "roku", "term": "六", "translation": "six", "pronunciation": "roku", "partOfSpeech": "number" },
+      { "id": "nana", "term": "七", "translation": "seven", "pronunciation": "nana / shichi", "partOfSpeech": "number" },
+      { "id": "hachi", "term": "八", "translation": "eight", "pronunciation": "hachi", "partOfSpeech": "number" },
+      { "id": "kyuu", "term": "九", "translation": "nine", "pronunciation": "kyū / ku", "partOfSpeech": "number" },
+      { "id": "juu", "term": "十", "translation": "ten", "pronunciation": "jū", "partOfSpeech": "number" },
+      { "id": "hyaku", "term": "百", "translation": "one hundred / a hundred / hundred", "pronunciation": "hyaku", "partOfSpeech": "number" },
+      { "id": "sen", "term": "千", "translation": "one thousand / a thousand / thousand", "pronunciation": "sen", "partOfSpeech": "number" }
+    ]
+  },
+  {
+    "id": "travel",
+    "languageCode": "ja",
+    "title": "Travel & Directions",
+    "description": "Stations, tickets and directions for getting around Japan.",
+    "topic": "Travel",
+    "level": "A2",
+    "cards": [
+      { "id": "eki", "term": "駅", "translation": "station", "pronunciation": "eki", "partOfSpeech": "noun", "example": "駅はどこですか。", "exampleTranslation": "Where is the station?" },
+      { "id": "kuukou", "term": "空港", "translation": "airport", "pronunciation": "kūkō", "partOfSpeech": "noun" },
+      { "id": "kippu", "term": "切符", "translation": "ticket", "pronunciation": "kippu", "partOfSpeech": "noun" },
+      { "id": "pasupooto", "term": "パスポート", "translation": "passport", "pronunciation": "pasupōto", "partOfSpeech": "noun" },
+      { "id": "densha", "term": "電車", "translation": "train", "pronunciation": "densha", "partOfSpeech": "noun" },
+      { "id": "hoteru", "term": "ホテル", "translation": "hotel", "pronunciation": "hoteru", "partOfSpeech": "noun" },
+      { "id": "chizu", "term": "地図", "translation": "map", "pronunciation": "chizu", "partOfSpeech": "noun" },
+      { "id": "migi", "term": "右", "translation": "right", "pronunciation": "migi", "partOfSpeech": "noun" },
+      { "id": "hidari", "term": "左", "translation": "left", "pronunciation": "hidari", "partOfSpeech": "noun" },
+      { "id": "massugu", "term": "まっすぐ", "translation": "straight ahead", "pronunciation": "massugu", "partOfSpeech": "adverb", "example": "まっすぐ行ってください。", "exampleTranslation": "Please go straight ahead." },
+      { "id": "toire", "term": "トイレ", "translation": "toilet / restroom", "pronunciation": "toire", "partOfSpeech": "noun" },
+      { "id": "doko", "term": "どこですか", "translation": "where is it?", "pronunciation": "doko desu ka", "partOfSpeech": "phrase" },
+      { "id": "yoyaku", "term": "予約", "translation": "reservation / booking", "pronunciation": "yoyaku", "partOfSpeech": "noun" },
+      { "id": "nimotsu", "term": "荷物", "translation": "luggage / baggage", "pronunciation": "nimotsu", "partOfSpeech": "noun" }
+    ]
+  }
+]
